@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".agenteDescripcion">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/valoranticon"
+                />
+            <ImageView
+                android:id="@+id/imgBig"
+                android:layout_width="283dp"
+                android:layout_height="434dp"
+                android:src="@drawable/yoruf"/>
+
+            <TextView
+                android:id="@+id/txtNombreAgenteBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yoru"
+                android:textSize="60dp"
+                android:fontFamily="@font/valorant"
+                android:layout_margin="14dp"
+                android:textColor="@color/colorFont"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorFont"
+                    android:text="Nacionalidad:"/>
+                <TextView
+                    android:id="@+id/txtNacionalidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:textColor="@color/colorFont"
+                    android:text="Japones"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="50dp"
+                android:id="@+id/imgEspecialidad"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/duelista"
+                />
+            <TextView
+                android:id="@+id/txtEspecialidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/colorFont"
+                android:text="dualista"
+                android:layout_marginBottom="50dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="31dp">
+                <ImageView
+                    android:id="@+id/imgHabilidad1"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="40dp"
+                    android:src="@drawable/hyoru1"
+                    />
+                <TextView
+                    android:id="@+id/txtHabilidad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textColor="@color/colorFont"
+                    android:text="Lanza un rayo de energía INSTANTÁNEO que rebota una vez. Luego de golpear cada superficie, el rayo electrifica el terreno debajo, lo que provoca una explosión conmocionante."
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="31dp">
+                <ImageView
+                    android:id="@+id/imgHabilidad2"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="40dp"
+                    android:src="@drawable/hyoru2"
+                    />
+                <TextView
+                    android:id="@+id/txtHabilidad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textColor="@color/colorFont"
+                    android:text="Lanza un rayo de energía INSTANTÁNEO que rebota una vez. Luego de golpear cada superficie, el rayo electrifica el terreno debajo, lo que provoca una explosión conmocionante."
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="31dp">
+                <ImageView
+                    android:id="@+id/imgHabilidad3"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:layout_marginStart="40dp"
+                    android:src="@drawable/hyoru3"
+                    />
+                <TextView
+                    android:id="@+id/txtHabilidad3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="30dp"
+                    android:textColor="@color/colorFont"
+                    android:text="Lanza un rayo de energía INSTANTÁNEO que rebota una vez. Luego de golpear cada superficie, el rayo electrifica el terreno debajo, lo que provoca una explosión conmocionante."
+                    />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imgHabilidad4"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/hyoru4"
+                />
+            <TextView
+                android:id="@+id/txtHabilidad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="@color/colorFont"
+                android:text="Lanza un rayo de energía INSTANTÁNEO que rebota una vez. Luego de golpear cada superficie, el rayo electrifica el terreno debajo, lo que provoca una explosión conmocionante."
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorFont"
+                android:text="Lore"/>
+
+            <TextView
+                android:id="@+id/txtLore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="@color/colorFont"
+                android:text="Lanza un rayo de energía INSTANTÁNEO que rebota una vez. Luego de golpear cada superficie, el rayo electrifica el terreno debajo, lo que provoca una explosión conmocionante."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorFont"
+                android:text="Arma Recomendada"/>
+
+            <ImageView
+                android:id="@+id/imgArmaRecomendada"
+                android:layout_width="322dp"
+                android:layout_height="192dp"
+                android:src="@drawable/phantom" />
+            <TextView
+                android:id="@+id/txtNombreArma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorFont"
+                android:text="Phantom"/>
+
+            <Button
+                android:id="@+id/btnVer"
+                android:layout_width="299dp"
+                android:layout_height="72dp"
+                android:layout_margin="30dp"
+                android:text="Ver video"
+                android:fontFamily="@font/valorant"
+                android:textColor="@color/colorFont"
+                android:textSize="30dp"
+                android:background="@drawable/gradientbutton" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
